@@ -25,7 +25,7 @@ export default async function handler(req, res) {
     "Name": fields.name || '',
     "LinkedIn": fields.linkedin || '',
     "Last Name": fields.last_name || '',
-    "Identify Document": fields.identity_document || '',
+    "Identify Document": fields.identify_document || '',
     "Country": fields.country || '',
     "Consentimiento Para Compartir Datos": fields.consentimiento_para_compartir_datos || '',
     "Company": fields.company || '',
