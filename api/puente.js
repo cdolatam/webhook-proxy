@@ -36,7 +36,7 @@ export default async function handler(req, res) {
 
   try {
     const response = await fetch(
-      'https://af92993d5bfcea58ae0f8592e5fe47.e7.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/4892641336ec483cb93d3fc58066d5df/triggers/manual/paths/invoke/?api-version=1&tenantId=tId&environmentId=af92993d-5bfc-ea58-ae0f-8592e5fe47e7',
+      'https://af92993d5bfcea58ae0f8592e5fe47.e7.environment.api.powerplatform.com:443/powerautomate/automations/direct/workflows/7dd09755495a440d8189dd4468686915/triggers/manual/paths/invoke/?api-version=1&tenantId=tId&environmentId=af92993d-5bfc-ea58-ae0f-8592e5fe47e7&sp=%2Ftriggers%2Fmanual%2Frun&sv=1.0&sig=JXbU69T-K32qcupfqsqNV9VU3I43-D3aMr7jA55x7H4',
       {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
